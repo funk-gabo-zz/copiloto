@@ -1,13 +1,15 @@
-import styles from '../../../styles/HomeMenu.module.css'
+import styles from '../../styles/HomeMenu.module.css'
+import Link from 'next/link'
 
-
-const index = () => {
+export default function MenuOption({name, color, to}) {
   return (
     <div className={styles.menu_container}>
-      <img src="/home_menu/eblue.svg" />
-      <span>Historico</span>
+    <Link href={`/${to}`}>
+    <a>
+      <img src={`/home_menu/e${color}.png`} />
+      </a>
+    </Link>
+      <span>{name}</span>
     </div>
   );
 }
-
-export default index;
