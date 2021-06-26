@@ -6,11 +6,18 @@ export default function MenuOption({ name, color, to }) {
       <Link href={`/${to}`}>
         <a>
           <img src={`/home_menu/e${color}.png`} />
+          <div className="cop"></div>
         </a>
       </Link>
       <span>{name}</span>
       <style jsx>
         {`
+          .cop {
+            content:'';
+            width: 100px;
+            height:100px;
+            background-color:red;
+          }
           .menu_container {
             display: flex;
             flex-direction: column;
