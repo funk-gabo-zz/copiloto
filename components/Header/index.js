@@ -1,28 +1,19 @@
+import styles from "./styles";
+import Image from 'next/image'
+
 const index = () => {
   return (
     <header>
-      <picture>
-        <img src="/Foton.svg" alt="" />
+      <picture className='foton'>
+        <Image src="/Foton.svg" alt="" width={480} height={80} layout='responsive' />
       </picture>
-      <picture>
-        <img src="/coPiloto.svg" alt="" />
+      <picture className='copiloto'>
+        <Image src="/coPiloto.svg" alt="" width={500} height={100} layout='responsive'  />
       </picture>
-      <picture>
-        <img src="/kaufman.svg" alt="" />
+      <picture className='kaufman'>
+        <Image src="/kaufman.svg" alt="" width={400} height={100} layout='responsive' />
       </picture>
-      <style jsx>{`
-        header {
-          display: flex;
-          justify-content: space-between;
-          height: 200px;
-          width: 100%;
-          background-color: #cacaca;
-        }
-        header picture {
-          padding: 0 40px;
-          margin: 0;
-        }
-      `}</style>
+      <style jsx>{styles}</style>
     </header>
   );
 };
