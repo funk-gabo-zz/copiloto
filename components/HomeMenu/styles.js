@@ -1,4 +1,5 @@
 import css from "styled-jsx/css";
+import { breakpoints } from "../../styles/global";
 
 export default css`
   .container {
@@ -32,4 +33,11 @@ export default css`
     left: 0;
     right: 0;
   }
+
+  @media (max-width: ${breakpoints.mobile}) {
+
+    .container{
+  height: 100vh;
+}
+}
 `;
