@@ -16,9 +16,6 @@ footer {
 }
 @media (max-width: ${breakpoints.mobile}) {
 
-footer{
-  display: none;
-}
 }
 
 `;
