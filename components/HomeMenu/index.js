@@ -1,5 +1,5 @@
 import styles from "./styles";
-import Image from 'next/image';
+import Image from "next/image";
 
 import MenuOption from "../MenuOption";
 export default function HomeMenu() {
@@ -14,7 +14,12 @@ export default function HomeMenu() {
         <MenuOption name='Mother' color='orange'/> */}
       </div>
       <picture>
-        <Image src="/home_menu/eTrans_blanco.svg" alt="etransLogo" width={200} height={50} />
+        <Image
+          src="/home_menu/eTrans_blanco.svg"
+          alt="etransLogo"
+          width={200}
+          height={50}
+        />
       </picture>
       <style jsx>{styles}</style>
     </div>

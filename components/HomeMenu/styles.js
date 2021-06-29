@@ -2,6 +2,8 @@ import css from "styled-jsx/css";
 
 export default css`
   .container {
+    display: flex;
+    flex-direction: column;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
