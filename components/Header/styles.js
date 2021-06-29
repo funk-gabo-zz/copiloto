@@ -5,7 +5,7 @@ export default css`
   header {
     background-color: rgb(236, 236, 236);
     width: 100%;
-    height: 130px;
+    height: 15vh;
     display: flex;
     justify-content: space-around;
     align-items: center;

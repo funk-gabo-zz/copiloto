@@ -7,8 +7,8 @@ export default function HomeMenu() {
     <div className="container">
       <div className="blur"></div>
       <div className="options_container">
-        <MenuOption name="Historico" color="red" to="historical" />
-        <MenuOption name="Analitics" color="white" />
+        <MenuOption name="Histórico" color="red" to="historical" />
+        <MenuOption name="Tiempo Real" color="white" />
         <MenuOption name="Gráficos" color="blue" />
         {/* <MenuOption name='Mother' color='yellow'/>
         <MenuOption name='Mother' color='orange'/> */}
