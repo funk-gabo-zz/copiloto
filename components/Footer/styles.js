@@ -1,4 +1,5 @@
 import css from "styled-jsx/css";
+import { breakpoints } from "../../styles/global";
 
 export default css`
 footer {
@@ -13,6 +14,11 @@ footer {
  border-top: white solid 1px;
   height: 15vh;
 }
-span{
+@media (max-width: ${breakpoints.mobile}) {
+
+footer{
+  display: none;
 }
+}
+
 `;
