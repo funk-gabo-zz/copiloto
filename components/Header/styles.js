@@ -8,12 +8,21 @@ export default css`
     height: 130px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
-  picture{
-    width: 100%;
-    height: 100%;
+  .foton {
+    width: 200px;
+    height: 110px;
   }
-  @media (max-width: ${breakpoints.mobile}){
+  .coPiloto {
+    height: 120px;
+  }
+  .kaufman {
+    width: 200px;
+    height: 180px;
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+
     .kaufman, .foton{
       display: none;
     }

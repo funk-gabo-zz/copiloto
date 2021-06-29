@@ -18,5 +18,5 @@ export const globalStyles = css.global`
   }
 `;
 export const breakpoints = {
-  mobile: '375px'
+  mobile: '768px'
 }

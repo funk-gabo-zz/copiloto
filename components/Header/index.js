@@ -4,15 +4,9 @@ import Image from 'next/image'
 const index = () => {
   return (
     <header>
-      <picture className='foton'>
-        <Image src="/Foton.svg" alt="" width={480} height={80} layout='responsive' />
-      </picture>
-      <picture className='copiloto'>
-        <Image src="/coPiloto.svg" alt="" width={500} height={100} layout='responsive'  />
-      </picture>
-      <picture className='kaufman'>
-        <Image src="/kaufman.svg" alt="" width={400} height={100} layout='responsive' />
-      </picture>
+        <img className='foton' src="/Foton.svg" alt="" layout='responsive' />
+        <img className='coPiloto' src="/coPiloto.svg" alt="" layout='responsive'  />
+        <img className='kaufman' src="/kaufman.svg" alt="" layout='responsive' />
       <style jsx>{styles}</style>
     </header>
   );
